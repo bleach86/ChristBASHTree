@@ -10,33 +10,20 @@ Via cURL:
 
 ```
 # English version
-curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
+curl https://raw.githubusercontent.com/bleach86/ChristBASHTree/master/tree-EN.sh | bash
 
 # Spanish version
-curl https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
+curl https://raw.githubusercontent.com/bleach86/ChristBASHTree/master/tree-ES.sh | bash
 ```
 
 Via Wget:
 
 ```
 # English version
-wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-EN.sh | bash
+wget -qO- https://raw.githubusercontent.com/bleach86/ChristBASHTree/master/tree-EN.sh | bash
 
 # Spanish version
-wget -qO- https://raw.githubusercontent.com/sergiolepore/ChristBASHTree/master/tree-ES.sh | bash
-```
-
-Docker:
-
-```
-docker pull sergiolepore/christbashtree:latest
-docker run -it sergiolepore/christbashtree:latest
-```
-
-Git clone and execute:
-
-```
-git clone https://github.com/sergiolepore/ChristBASHTree.git && cd ./ChristBASHTree && bash tree-EN.sh
+wget -qO- https://raw.githubusercontent.com/bleach86/ChristBASHTree/master/tree-ES.sh | bash
 ```
 
 __Enjoy!__
@@ -54,14 +41,6 @@ Only GNU/Linux and Unix flavors.
 ## What OS are you using?
 
 Ubuntu 17.10.
-
-## What about your terminal emulator?
-
-[Tilix](https://gnunn1.github.io/tilix-web/)
-
-## And your color palette?
-
-Custom, based on Atom's "One Dark" theme.
 
 ## Contributors
 
