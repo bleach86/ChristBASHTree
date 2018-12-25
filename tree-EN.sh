@@ -58,13 +58,13 @@ while true; do
         color=$(((color+1)%8))
         # Flashing text
         sh=1
-        for l in C O D E
-        do
-            tput cup $((lin+1)) $((c+sh))
-            echo $l
-            let sh++
-            sleep 0.01
-        done
+        #for l in C O D E
+        #do
+            #tput cup $((lin+1)) $((c+sh))
+            #echo $l
+            #let sh++
+            #sleep 0.01
+        #done
     }
     k=$((k % 2 + 1))
 done
